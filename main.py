@@ -1,7 +1,7 @@
 import os
 import openai
 
-openai.api_key = ''
+openai.api_key = 'your API-KEY'
 
 def generate_response(prom):
   start_sequence = "\nAI:"
